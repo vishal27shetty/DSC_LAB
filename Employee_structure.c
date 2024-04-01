@@ -39,6 +39,7 @@ int main()
         printf("%d. Employee salary: %f \n",i+1,(ptr+i)->sal);
     }
     depsal(ptr,n);
+    free(ptr);
     return 0;
 }
 
